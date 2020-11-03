@@ -15,8 +15,8 @@ services:
 addons:
   sonarcloud:
     organization: "alessandroferi-github"
-    token:
-       secure: "9d61f1f727ee774ee1a9d5d7ee20cb821ec13294"
+    #token:
+     #  secure: "9d61f1f727ee774ee1a9d5d7ee20cb821ec13294"
 
 # skip installation step
 install: true
