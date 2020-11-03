@@ -23,6 +23,8 @@
     <picocli.version>3.9.3</picocli.version>
     <cucumber.version>4.2.2</cucumber.version>
 
+
+	<sonar.projectKey>alessandro-feri_sonarqube-example</sonar.projectKey>
     <!-- For each rule to be ignore, add another eXX and two corresponding 
       properties with eXX in the name as below -->
     <sonar.issue.ignore.multicriteria>e11,e12,e13</sonar.issue.ignore.multicriteria>
