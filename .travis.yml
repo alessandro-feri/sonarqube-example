@@ -27,7 +27,7 @@ cache:
       - $HOME/.sonar/cache
 
 script:
-   - mvn -f sonarqube-example/pom.xml -Pjacoco clean verify sonar:sonar -Dsonar.projectKey=alessandro-feri_sonarqube-example
+   - mvn -f sonarqube-example/pom.xml -Pjacoco clean verify sonar:sonar
    #non funziona #- mvn -f sonarqube-example/pom.xml -Pjacoco clean verify sonar:sonar
    #funziona #- mvn -f sonarqube-example/pom.xml -Pjacoco clean verify sonar:sonar -Dsonar.projectKey=alessandro-feri_sonarqube-example -Dsonar.scanner.force-deprecated-java-version=true
    #funziona #- mvn -f sonarqube-example/pom.xml clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=alessandro-feri_sonarqube-example -Dsonar.scanner.force-deprecated-java-version=true
