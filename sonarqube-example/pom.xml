@@ -283,6 +283,24 @@
             </executions>
           </plugin>
         </plugins>
+         <pluginManagement>
+          <plugins>
+            <!-- You must run coveralls:report explicitly -->
+            <plugin>
+              <groupId>org.eluder.coveralls</groupId>
+              <artifactId>coveralls-maven-plugin</artifactId>
+              <version>4.3.0</version>
+              <configuration>
+              	<repoToken>1BhZguVKSlpdFMbV3j3YEBWHZyLuG6OiG</repoToken>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.sonarsource.scanner.maven</groupId>
+              <artifactId>sonar-maven-plugin</artifactId>
+              <version>3.7.0.1746</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
       </build>
     </profile>
   </profiles>
