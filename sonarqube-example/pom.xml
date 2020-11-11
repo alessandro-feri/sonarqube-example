@@ -290,9 +290,9 @@
               <groupId>org.eluder.coveralls</groupId>
               <artifactId>coveralls-maven-plugin</artifactId>
               <version>4.3.0</version>
-              <configuration>
+             <!--  <configuration>
               	<repoToken>1BhZguVKSlpdFMbV3j3YEBWHZyLuG6OiG</repoToken>
-              </configuration>
+              </configuration>  -->
             </plugin>
             <plugin>
               <groupId>org.sonarsource.scanner.maven</groupId>
